@@ -1,89 +1,64 @@
 ---
-title: Basicpage template
-author: Your Name
-shortbio: Short bio
-description-meta: Short bio for meta-data
-og-url: https://basicpage.github.io
-location: Location, office
-email: noreply@noemail.com
+title: Yan Farba
+author: Yan Farba
+shortbio: I'm a master student at [RUB](https://ruhr-uni-bochum.de) and a research assistant at [MPI-SP](https://mpi-sp.org).
+description-meta: I'm a master student at Ruhr-University Bochum and a research assistant at MPI-SP
+og-url: https://JustCommonUsername.github.io
+location: Bochum, Germany
+email: (λx.λy.λz. x.y@z.org) yan farba mpi-sp
 clickable-email: false
-picture: img/profile.png
-picture-round: false
+picture: img/profile.jpg
+picture-round: true
 side-by-side: true
 disable-dark-mode: false
-pronouns: Pronouns
-og-picture: https://basicpage.github.io/img/profile.png
-orcid: 0000-0000-0000-0000
-dblp: https://dblp.org/
-scholar: https://scholar.google.com/
-hal: https://hal.science/
-mastodon: https://lipn.info
-github: basicpage
-gitlab: gitlab
-bitbucket: bitbucket.com
-bluesky: https://bsky.app/
-linkedin: https://www.linkedin.com
+# pronouns: Pronouns
+og-picture: https://JustCommonUsername.github.io/img/profile.jpg
+orcid: 0009-0008-8833-350X
+scholar: https://scholar.google.com/citations?user=PeJvORQAAAAJ
+github: JustCommonUsername
+linkedin: https://www.linkedin.com/in/yan-farba
 footer: >-
   Based on the
   [basicpage template](https://github.com/basicpage/basicpage.github.io),
-  made to be easy to use! 🎓
+  made by Yannick Forster and Théo Winterhalter! 🎓
 ---
 
-> [!NOTE]
-> This website is an example of what one can get with the `basicpage` template
-> designed for easy-to-create personal academic page.
-> You are only required to know a little bit of Markdown to get started!
-> Just follow the README of the
-> [Github repository](https://github.com/basicpage/basicpage.github.io).
+I'm a master's student at [RUB](https://ruhr-uni-bochum.de) with a growing interest in formal verification. I'm working as a research assistant at the ["Secure Compilation" Group](https://catalin-hritcu.github.io/#group) at MPI-SP, led by [Prof. Cătălin Hrițcu](https://catalin-hritcu.github.io/). I'm interested in applying programming languages and compiler theory for developing formally verified defenses against various attacks on software.
 
-Here you would write a longer presentation of yourself and your research
-interest, or anything you want really.
+Before that, I worked and did my bachelor thesis at the [Heinz-Nixdorf Research Group for Cryptocurrencies and Smart Contracts](https://hn-rg.github.io/), led by [Dr. Clara Schneidewind](https://www.mpi-sp.org/schneidewind). There, I worked on developing a static analysis procedure for verifying (Ethereum) smart contracts secure.
 
-You have the power of Markdown, powered by Pandoc to let you do what you want.
-- Unordered lists.
-- *Italic*.
-- **Bold**.
-- Key display: <kbd>Ctrl</kbd> + <kbd>S</kbd>.
-- Sublists.
-  1. Ordered if one wants.
-  2. And so on…
-
-> [!TIP]
-> The way this page is structured is only a suggestion, and you are basically
-> free to customise everything however you want. For the more advanced
-> customisation you might need to now very basic CSS and/or HTML, but that's it
-> because we do not rely on any heavy machinery.
+I also enjoy TAing in the courses offered by MPI-SP, since these courses initially sparked my interest in research.
 
 # Publications
-
-This template provide JSON or Yaml parsers to handle data representing
-publications to put them in the nice following shape.
 
 ## Conference papers
 
 ``` json {.paper}
-"title": "Towards automatic academic pages 2",
-"authors": "Templato Urnehm, U. N. Owen, Wan Morotter",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2024",
-"url": "https://basicpage.github.io"
-```
-
-``` json {.paper}
-"title": "Towards automatic academic pages",
-"authors": "Templato Urnehm, U. N. Owen",
-"awards": "Automatic Award",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2023",
-"url": "https://basicpage.github.io",
+"title": "Triosecuris: Formally Verified Protection Against Speculative Control-Flow Hijacking",
+"authors": "Jonathan Baumann, Yonghyun Kim, Yan Farba, Catalin Hritcu, Julay Leatherman-Brooks",
+"venue": "39th IEEE Computer Security Foundations Symposium (CSF)",
+"year": "2026",
+"url": "https://arxiv.org/abs/2601.22978",
 "files": [
-  { "text": "Paper", "type": "pdf", "src": "foo.pdf" },
-  { "text": "Bibtex", "type": "bib", "src": "foo.bib" },
-  { "text": "Formalisation", "type": "code", "src": "foo.v" }
+  { "text": "Paper (arXiv)", "type": "link", "src": "https://arxiv.org/abs/2601.22978" },
+  { "text": "Rocq development (GitHub)", "type": "link", "src": "https://github.com/secure-compilation/triosecuris" }
 ]
 ```
 
-## Journal papers
+## Workshop papers
+
+``` json {.paper}
+"title": "Combining Program  and Protocol Analysis for Frontrunning Resistance in Smart Contracts",
+"authors": "Sebastian Holler, Yan Farba, and Clara Schneidewind",
+"venue": "Workshop on Foundations of Computer Security (FCS)",
+"year": "2026",
+"url": "https://program.floc26.org/FCS-2026-07-25#talk:1201",
+"files": [
+  { "text": "Paper (local copy)", "type": "pdf", "src": "files/DeckCheck_FCS.pdf" }
+]
+```
+
+<!-- ## Journal papers
 
 ``` yaml {.paper}
 title: Yet another yaml parser 3
@@ -160,37 +135,36 @@ papers:
   { "text": "Slides", "type": "slides", "src": "foo.key" },
   { "text": "Some random file", "src": "foo.rand" }
 ]
-```
+``` -->
 
 ## Talks
 
 ``` json {.papers}
 {
-  "title": "Talk 1",
-  "authors": "Templato Urnehm",
-  "venue": "My room"
-},
-{
-  "title": "Secret talk",
-  "authors": "Templato Urnehm",
-  "year": "1990"
-},
-{
-  "title": "Talk 3",
-  "authors": "Templato Urnehm",
-  "venue": "Don't remember…",
-  "year": "???"
+  "title": "Combining Program  and Protocol Analysis for Frontrunning Resistance in Smart Contracts",
+  "authors": "Sebastian Holler, Yan Farba, and Clara Schneidewind",
+  "venue": "Workshop on Foundations of Computer Security (FCS)"
 }
+```
+
+# Teaching
+
+```json {.paper}
+"title": "Proofs are Programs",
+"authors": "Clara Schneidewind, Cătălin Hrițcu (lecturers); Yonghyun Kim, Yan Farba (TAs)",
+"year": "2026",
+"url": "https://moodle.ruhr-uni-bochum.de/course/view.php?id=69950"
+```
+
+```json {.paper}
+"title": "Functional Programming",
+"authors": "Clara Schneidewind, Jana Hofmann (lecturers); Federico Badaloni, Jonathan Baumann, Yan Farba (TAs)",
+"awards": "Excellent Teaching Award Winner",
+"year": "2025/2026",
+"url": "https://moodle.ruhr-uni-bochum.de/course/view.php?id=67107"
 ```
 
 # Education
 
-Write whatever you want here.
-
-# Teaching
-
-Write whatever you want here.
-
-# Community service
-
-Write whatever you want here.
+- Apr. 2025 - now: Computer Science, M.Sc. [Ruhr-University Bochum](https://ruhr-uni-bochum.de).
+- Oct. 2021 - Mar. 2025: Applied Computer Science, B.Sc. [Ruhr-University Bochum](https://ruhr-uni-bochum.de).
