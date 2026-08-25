@@ -174,3 +174,16 @@ papers:
 
 - Apr. 2025 - now: Computer Science, M.Sc. [Ruhr-University Bochum](https://ruhr-uni-bochum.de).
 - Oct. 2021 - Mar. 2025: Applied Computer Science, B.Sc. [Ruhr-University Bochum](https://ruhr-uni-bochum.de).
+
+## Bachelor thesis
+
+``` json {.paper}
+"title": "Generation of Independence Constraints in Smart Contracts for Front-running Resistance",
+"authors": "Yan Farba, supervised by Clara Schneidewind and Sebastian Holler",
+"venue": "Ruhr-University Bochum",
+"year": "2025",
+"files": [
+    { "text": "Bachelor thesis", "type": "pdf", "src": "files/bachelor-thesis-hg.pdf" },
+    { "text": "Slides", "type": "slides", "src": "files/bachelor-thesis-hg-slides.pdf" }
+]
+```
