@@ -45,7 +45,7 @@ I also enjoy TAing in the courses offered by MPI-SP, since these courses initial
 ]
 ```
 
-## Workshop papers
+<!-- ## Workshop papers
 
 ``` json {.paper}
 "title": "Combining Program  and Protocol Analysis for Frontrunning Resistance in Smart Contracts",
@@ -56,7 +56,7 @@ I also enjoy TAing in the courses offered by MPI-SP, since these courses initial
 "files": [
   { "text": "Paper (local copy)", "type": "pdf", "src": "files/DeckCheck_FCS.pdf" }
 ]
-```
+``` -->
 
 <!-- ## Journal papers
 
@@ -143,7 +143,13 @@ papers:
 {
   "title": "Combining Program  and Protocol Analysis for Frontrunning Resistance in Smart Contracts",
   "authors": "Sebastian Holler, Yan Farba, and Clara Schneidewind",
-  "venue": "Workshop on Foundations of Computer Security (FCS)"
+  "venue": "Workshop on Foundations of Computer Security (FCS)",
+  "year": "2026",
+  "url": "https://program.floc26.org/FCS-2026-07-25#talk:1201",
+  "files": [
+      { "text": "Paper (local copy)", "type": "pdf", "src": "files/DeckCheck_FCS.pdf" },
+      { "text": "Slides", "type": "slides", "src": "files/DeckCheck_FCS_Slides.pdf" }
+  ]
 }
 ```
 
