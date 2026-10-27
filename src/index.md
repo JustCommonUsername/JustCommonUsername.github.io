@@ -29,6 +29,8 @@ Before that, I worked and did my bachelor thesis at the [Heinz-Nixdorf Research 
 
 I also enjoy TAing in the courses offered by MPI-SP, since these courses initially sparked my interest in research.
 
+My academic CV can be found [here](files/academic-cv-yan-farba.pdf).
+
 # Publications
 
 ## Conference papers
