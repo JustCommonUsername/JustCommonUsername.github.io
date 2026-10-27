@@ -23,7 +23,7 @@ footer: >-
   made by Yannick Forster and Théo Winterhalter! 🎓
 ---
 
-I'm a master's student at [RUB](https://ruhr-uni-bochum.de) with a growing interest in formal verification. I'm working as a research assistant at the ["Secure Compilation" Group](https://catalin-hritcu.github.io/#group) at MPI-SP, led by [Prof. Cătălin Hrițcu](https://catalin-hritcu.github.io/). I'm interested in applying programming languages and compiler theory for developing formally verified defenses against various attacks on software.
+I'm a master's student at [RUB](https://ruhr-uni-bochum.de) with a growing interest in formal verification. I'm working as a research assistant at the ["Formally Verified Security" Group](https://catalin-hritcu.github.io/#group) at MPI-SP, led by [Prof. Cătălin Hrițcu](https://catalin-hritcu.github.io/). I'm interested in applying programming languages and compiler theory for developing formally verified defenses against various attacks on software.
 
 Before that, I worked and did my bachelor thesis at the [Heinz-Nixdorf Research Group for Cryptocurrencies and Smart Contracts](https://hn-rg.github.io/), led by [Dr. Clara Schneidewind](https://www.mpi-sp.org/schneidewind). There, I worked on developing a static analysis procedure for verifying (Ethereum) smart contracts secure.
 
